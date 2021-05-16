@@ -12,7 +12,7 @@ const PostTemplate = ({ data }) => {
         <h2>{frontmatter.date}</h2>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
-      <Link to='/'>Back to Index</Link>
+      <Link to='/'>Portada</Link>
     </>
   )
 }
